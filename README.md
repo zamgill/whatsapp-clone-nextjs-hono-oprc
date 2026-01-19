@@ -1,4 +1,4 @@
-# whatsapp-clone
+# whatsapp-clone (under construction 🚧)
 
 TypeScript stack that combines Next.js, Hono, ORPC, and more.
 
