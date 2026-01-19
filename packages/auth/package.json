@@ -1,0 +1,24 @@
+{
+  "name": "@whatsapp-clone/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@whatsapp-clone/db": "workspace:*",
+    "@whatsapp-clone/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@whatsapp-clone/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
